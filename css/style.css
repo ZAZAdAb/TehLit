@@ -1,0 +1,1079 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('../img/bg-light.png');
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* HEADER */
+.header{
+  width: 100%;
+  background-color: #1e222d;
+  
+}
+
+.header-list{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo{
+  font-size: 35px;
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+  cursor: pointer;
+}
+
+.header-logo__link{
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav-menu{
+  display: flex;
+  list-style: none;
+}
+
+
+.nav__link{
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-transform: uppercase;
+  background-attachment: fixed;
+  padding: 10px 20px 16px;
+}
+
+.activ{
+  color: aqua;
+  border-bottom: 3px solid aqua;
+}
+
+.nav__link:hover{
+  color: aqua;
+  border-bottom: 3px solid aqua;
+}
+
+form{
+  display: none;
+}
+
+/* FON */
+.container{
+  background: url('../img/fon.jpg') no-repeat center center;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main__info{
+  max-width: 1000px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  padding-top: 250px;
+}
+
+.main-info__list{
+  max-width: 700px;
+  border-radius: 15px;
+}
+
+.info__item{
+  max-width: 700px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 7px;
+  line-height: 70px;
+  font-size: 40px;
+  text-align: left;
+  padding: 20px;
+}
+
+.info__item2{
+  text-align: right;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: 50px;
+}
+
+/* CONTENT */
+.trait__info{
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #000000;
+  max-width: 400px;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+  margin-top: 70px;
+  letter-spacing: 6px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.number{
+  margin-top: 120px;
+}
+
+.trait__info::after{
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+/* CONTENT BLOCK */
+.content__block{
+  max-width: 1100px;
+  background: rgb(63, 56, 45);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.wrapp-literature{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.lit-item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+.lit__img{
+  width: 100%;
+  max-width: 170px;
+  height: 270px;
+}
+
+.lit__img:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.lit__link{
+  font-size: 20px;
+  max-width: 170px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.lit__link:hover{
+  color: aqua;
+  transition: top 1s ease-out 0.5s;
+}
+
+.trait__pb{
+  text-decoration: none;
+  color: #fff;
+}
+
+.trait__pb:hover{
+  color: aqua;
+}
+
+/* LEARN BOOCK */
+
+.defoult__trait{
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: black;
+  margin-top: 85px;
+  margin-bottom: 40px;
+}
+
+.block-biography{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.biography__zag{
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.bio{
+  background: rgb(116, 113, 113);
+  border-radius: 10px;
+}
+
+.bio__img{
+  
+  max-height: 170px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+
+.footer{
+  width: 100%;
+  background-color: #1e222d;
+  margin-top: 80px;
+}
+
+.footer__wrap{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo{
+  font-size: 35px;
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+  cursor: pointer;
+}
+
+.footer-info{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 16px;
+  margin: 10px 0 0;
+  font-weight: 300;
+  line-height: 17px;
+  color: #fff;
+  opacity: .6;
+}
+
+.footer-info2{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 16px;
+  margin: 10px 0 0;
+  font-weight: 300;
+  color: #fff;
+  opacity: .6;
+}
+
+
+
+.nav-footer{
+  list-style: none;
+  margin: 0 auto;
+}
+
+.footer__link {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 25px;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-transform: uppercase;
+}
+
+.footer__link:hover{
+  color: aqua;
+}
+
+.main-footer__info{
+  list-style: none;
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-img{
+  width: 100%;
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+/*================================= PROGRAMM HTML ========================================*/
+.programm-content{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.mini-nav{
+  display: flex;
+  list-style: none;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.main-nav__link{
+  text-decoration: none;
+  padding-right: 6px;
+  color: #000000;
+}
+
+.delimiter{
+  padding-right: 6px;
+}
+
+.img-link{
+  max-width: 200px;
+  max-height: 270px;
+}
+
+.main-nav__link:hover{
+  text-decoration: underline;
+}
+
+.main-container{
+  max-width: 1100px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.programm__item{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.programm__zag{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+
+.content__block2{
+  max-width: 1100px;
+  background: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.lit__link2{
+  display: flex;
+  font-size: 15px;
+  max-width: 190px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.192);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+.lit__link2:hover{
+  transition: .3s linear;
+  box-shadow: 200px 0 0 0 rgba(0,0,0,.3) inset;
+  color: aqua;
+}
+
+.literature-list{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: rgba(104, 85, 63, 0.377);
+  border-radius: 20px;
+ 
+}
+
+.lit-list__img{
+  width: 100%;
+  max-width: 200px;
+  height: 270px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.lit-list__img:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.list__sections{
+  text-decoration: none;
+  max-width: 850px;
+}
+
+.lit-item__info{
+  font-size: 15px;
+  max-width: 200px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/*================================ BIOGRAPHY HTML ========================================*/
+.biography-content{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.biography-item{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.biography__item{
+  width: 100%;
+  max-width: 900px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.biography__list{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  background-color: rgba(116, 113, 113, 0.644);
+}
+
+.open_list {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.clouse_list {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+
+/*================================PROGRAMM CONTENT==========================================*/
+
+.programm-content-item{
+  display: flex;
+  margin: 0 auto;
+}
+
+.programm-content__img{
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.content-img{
+  display: flex;
+}
+
+.container-aftor{
+  display: flex;
+  justify-content: space-between;
+  
+  margin-bottom: 20px;
+}
+
+.aftor-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.aftor-name{
+  margin-top: 15px;
+}
+
+.dob{
+  margin-top: 10px;
+}
+
+
+.content__zag{
+  max-width: 670px;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  margin: 10px 0 30px;
+}
+
+.aftor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.aftor-img{
+  width: 100%;
+  max-width: 170px;
+  height: 100%;
+  max-height: 170px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.aftor-biography{
+  font-size: 18px;
+  width: 100%;
+  max-width: 200px;
+  background-color: rgba(0, 0, 0, 0.192);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 15px 0 15px;
+}
+
+.aftor-biography:hover{
+  transition: .3s linear;
+  box-shadow: 200px 0 0 0 rgba(0,0,0,.3) inset;
+  color: aqua;
+}
+
+.conspect{
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph-conspect{
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+.poem{
+  margin: 5px auto;
+  padding: 10px 20px 10px;
+  background-color: #00000015;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.poem2{
+  margin: 5px auto;
+  padding: 10px 20px 10px;
+  text-align: center;
+}
+
+.citata{
+  width: 80%;
+  margin: 5px auto;
+  padding: 10px 20px 10px;
+  background-color: #00000011;
+  text-align: left;
+  border-radius: 2px;
+}
+
+
+
+/*===========================================BIOGRAPHY CONTENT=====================*/
+
+.aftor-info{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 0 auto;
+}
+
+.dob2{
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+.conspect-zag{
+  margin: 20px 0px 10px;
+}
+
+.tigr{
+  display: flex;
+  align-self: center;
+}
+
+.footer__wrap{
+  padding: 25px;
+}
+
+.footer-img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* MEDIA TABLE */
+
+@media screen and (max-width:768px){
+  /*.burger-menu{
+    display: block;
+  }
+  form{
+    display: none;
+  }
+  .nav-menu{
+    display: none;
+  }
+  .nav{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7px 0px 2px;
+  }*/
+
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .nav-menu{
+    margin: 10px 20px 15px;
+  }
+
+  .info__item{
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  .info__item2{
+    font-size: 20px;
+  }
+  .wrapp-literature{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .last__item{
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .lit__link{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .main-footer__info{
+    display: none;
+  }
+  
+}
+
+/*                                PROGRAMMA                                  */
+
+@media screen and (max-width:768px){
+  .literature-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media screen and (max-width:768px){
+  .container-aftor{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .programm-content__img{
+    max-width: 250px;
+  }
+}
+
+
+/*                                BIOGRAPHY                                */
+
+@media screen and (max-width:768px){
+  .biography__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .citata,
+  .poem,
+  .poem2,
+  .paragraph-conspect,
+  .mini-nav{
+    font-size: 12px;
+  }
+
+  .conspect-zag{
+    font-size: 14px;
+  }
+
+  .content__zag{
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+
+  .lit-item{
+    padding: 0px 20px;
+    margin: 0 auto;
+  }
+
+  .lit-item__info{
+    margin: 20px 0px;
+  }
+
+  .programm__zag,
+  .biography__zag{
+    font-size: 24px;
+  }
+
+  .container{
+    max-height: 600px;
+  }
+  .main__info{
+    padding: 150px 0px 0px;
+  }
+
+}
+
+
+/* MEDIA MOBILE */
+
+@media screen and (max-width: 414px){
+
+  .programm-content__img{
+    max-width: 150px;
+    padding: 0px;
+  }
+
+  .aftor-name,
+  .dob,
+  .dob2{
+    font-size: 12px;
+  }
+
+  .content__zag{
+    font-size: 16px;
+  }
+
+  .citata,
+  .poem,
+  .poem2,
+  .paragraph-conspect{
+    font-size: 10px;
+  }
+  .mini-nav{
+    font-size: 8px;
+  }
+
+  .conspect{
+    padding: 0px 10px;
+  }
+
+  .conspect-zag{
+    font-size: 12px;
+  }
+
+  .aftor-img{
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .header-logo__link,
+  .footer__logo{
+    font-size: 24px;
+  }
+
+  .footer-info,
+  .footer-info2,
+  .footer__link{
+    font-size: 14px;
+  }
+
+  .lit-item{
+    max-width: 100px;
+    padding: 0px 10px;
+  }
+
+  .lit__img{
+    max-height: 150px;
+  }
+
+  .bio__img{
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .programm__zag,
+  .biography__zag{
+    font-size: 18px;
+  }
+
+  .biography__list{
+    padding: 20px;
+  }
+
+  .lit__link{
+    font-size: 12px;
+  }
+
+  .number{
+    max-width: 350px;
+  }
+
+  .trait__info{
+    margin: 30px 0px 0px;
+    margin: 0 auto;
+  }
+
+}
+
+/* programm mobile */
+
+@media screen and (max-width: 414px){
+  .list__sections{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:558px){
+  .dop-item2{
+    margin: 0 auto;
+  }
+
+  .lit-list__img{
+    max-height: 150px;
+  }
+
+  .lit__link2{
+    font-size: 10px;
+    max-width: 110px;
+  }
+
+  .lit-item__info{
+    font-size: 11px;
+    max-width: 110px;
+  }
+
+  .nav__link{
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-transform: uppercase;
+    background-attachment: fixed;
+    padding: 10px 20px 15px;
+  }
+}
+
+@media screen and (max-width:450px){
+  .nav__link{
+    font-size: 9px;
+    padding: 10px 15px 15px;
+  }
+}
+
+@media screen and (max-width:340px){
+  .nav__link{
+    font-size: 7px;
+    padding: 10px 15px 15px;
+  }
+}
+
+@media screen and (max-width:425px){
+  .number{
+    max-width: 350px;
+    margin-top: 60px;
+  }
+  .trait__pb{
+    font-size: 14px;
+  }
+  .biography__zag{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:387px){
+  .last__item{
+    margin: 0px;
+  }
+  .wrapp-literature{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:375px){
+  .info__item{
+    font-size: 30px;
+    padding-top: 0px;
+  }
+  .main__info{
+    padding-top: 70px;
+  }
+
+  .number{
+    max-width: 300px;
+  }
+
+  .trait__pb{
+    font-size: 12px;
+  }
+  
+  .biography__zag{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width:320px){
+  .info__item,
+  .info__item2{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .info__item2{
+    margin: 10px;
+  }
+
+  .container{
+    max-height: 300px;
+  }
+
+  .aftor-biography{
+    font-size: 15px;
+  }
+}
+
+
+/*                      contacts html                       */ 
+
+.prepod{
+  display: block;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.prepod__zag,
+.prepod__name,
+.prepod__info,
+.prepod__contact{
+  margin: 20px;
+}
+
+.contacts-citata{
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.citata__p{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 60px;
+}
+
+.citata-pushkin{
+  align-items: center;
+  margin-left: 20px;
+}
+
+.citata2{
+  text-align: justify;
+  max-width: 800px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+
+.aftor-citata{
+  text-align: right;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 3px;
+}
+
+.defoult__trait2{
+  max-width: 90%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contacts-koll{
+  display: block;
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.contacts-koll__zag{
+  margin-bottom: 20px;
+}
+
+.google-maps{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.contacts__info{
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px){
+  .prepod__zag{
+    font-size: 18px;
+  }
+
+  .prepod__name{
+    font-size: 14px;
+  }
+
+  .prepod__info,
+  .prepod__contact{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 414px){
+  .citata__p{
+    max-width: 95px;
+    max-height: 95px;
+    border-radius: 36px;
+  }
+
+  .citata2,
+  .aftor-citata{
+    font-size: 12px;
+    letter-spacing: 2px;
+  line-height: 10px;
+  }
+
+  .contacts-koll__zag{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .contacts__info{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
